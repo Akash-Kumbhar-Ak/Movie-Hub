@@ -1,0 +1,52 @@
+* {
+}
+section {
+  height: 730px;
+  width: 100%;
+  justify-content: center;
+  justify-items: center;
+  align-items: center;
+  display: flex;
+  text-align: center;
+  background-image: url(./movie.png);
+  backdrop-filter: initial;
+
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: black;
+}
+div.MovieListContainer {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  padding: 30px;
+  gap: 25px;
+  background-color: rgb(9, 9, 9);
+  justify-content: space-evenly;
+}
+h1 {
+  font-weight: 900;
+  font-size: 70px;
+  color: white;
+}
+p {
+  font-weight: 800;
+  font-size: 30px;
+  margin-bottom: 20px;
+  color: white;
+}
+input {
+  width: 300px;
+  height: 50px;
+  margin-bottom: 20px;
+  border-radius: 20px;
+  text-align: center;
+}
+img.Placeholder {
+  height: 80px;
+  opacity: 30%;
+  color: aliceblue;
+  background-color: aliceblue;
+  border-radius: 100%;
+  border: px solid transparent;
+}
